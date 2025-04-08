@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sohan Meghraj's Portfolio</title>
+
+    <meta name='viewport' content='width=device-width, inital-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/875653427e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+
+    <div class="container">
+        <nav>
+            <img src="images/sohan logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#projects">Projects</a> </li>
+
+                <li><a href="#Resume">Resume</a> </li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text"> 
+            <h1>Hey..!<span class="emoji">👋🏻</span><br>I'm <span>Sohan Meghraj</span></h1>          
+        </div>
+    </div>
+</div>
+<!----------------about-------------->  
+<div id="about">
+    <div id="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>
+                    Hello Everyone, I am <span class="namee">Sohan Meghraj </span> from Hyderabad,Telangana.<br>
+                    <br>
+                    I am currently an undergraduate student pursuing a B.Tech degree in Computer Science and Engineering(AI&ML) at MRITS, Telangana.<br>
+                    <br>
+                    Beyond academics, I enjoy engaging in activities that fuel my creativity and enthusiasm:<br>
+                    <br>
+                    
+                    
+                    <ul>
+                        <li>Playing Badminton</li><br>
+                        <li>Cooking</li><br>
+                        <li>Photography</li><br>
+                        <li>Travelling</li><br>
+                    </ul>
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical Skills</span><br>Python, C, Java, DBMS, Data Structures</li>
+                        <li><span>Frontend Technologies</span><br>HTML, CSS</li>
+                    <li><span>Behavioral Skills</span><br>Leadership, Team Player, Effective Communication</li>
+
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Modeling and Predicting Breaches in Cyber Security</span><br></li>
+
+                        <li><span>Web-Based Graphical Password Authentication System</span><br></li>
+
+                        <li><span>Augmented Reality App (using Unity)</span><br></li>
+
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2025  (8.01 CGPA 2024)</span><br>B.Tech in Artificial Intelligence and Machine Learning<br>Malla Reddy Institute of Technology and Science</li>
+                        <li><span>2021 (97%marks)</span><br>Intermediate in MPC<br> Masterminds Junior College</li>
+                        <li><span>2019 (9.8 GPA)</span><br>Secondary School Education<br> Sri Vani High School</li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div> 
+<!-------------------projects------------------>
+<div id="Projects" >
+    <div class="container">
+        <h1 class="sub-title">Projects</h1><br>
+        <div class="projects-list">
+            <div>
+                <h2>Modeling and Predicting Breaks in Cyber Hacking</h2><br>
+                <p>The project leverages machine learning, statistical techniques, and real-time data analysis to predict and understand potential cyber-attacks. By forecasting vulnerabilities, it aims to enhance security systems and mitigate the risk of future breaches.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Web Based Graphical Password Authentication System</h2><br>
+                <p>This project introduces a novel approach to securing user access on online platforms by replacing conventional alphanumeric passwords with image-based authentication. The method enhances security by leveraging human cognitive strengths in recognizing images over text, making it both user-friendly and resistant to common password attacks.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>Augmented Reality App (using Unity)</h2><br>
+                <p>This AR project uses Unity to create immersive augmented reality experiences by
+                    integrating 3D models with real-world environments. Unity's AR Foundation is used to build cross-platform applications, compatible with various AR devices.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!------------------------Resume---------------------->
+<div id="Resume">
+    <div class="container">
+        <h1 class="sub-title">My Resume</h1>
+
+        <a href="images/Sohan_Resume (3).pdf"  download class="btn ">Download CV</a>
+        <img class="resume" src="images/Sohan_Resume (3)_page-0001.jpg">
+    </div>
+</div>
+<!--------------------------Contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sohanmeghraj4444@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9550247264</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/meghraj_sohan?t=gkPKIsGQFmQFMbHppZ20IA&s=09"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/sohan_meghraj?igsh=MWVnZmkwM2FnemxzZg=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sohan-meghraj-421b2a322/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Designed and Developed by Sohan Meghraj<br>Copyright &#169; 2025 SM</p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    }
+</script> 
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5Wf_iDUrms8MGty2sV_-dVUHbZdqCMaK9D6m8LJ5X_CpBmzfsLN6FTQelAIR2EoBw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> 
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
